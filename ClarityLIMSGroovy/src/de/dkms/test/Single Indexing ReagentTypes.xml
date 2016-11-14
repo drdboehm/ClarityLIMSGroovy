@@ -1,0 +1,173 @@
+<config major="v2" minor="r14">
+<ReagentTypes>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD001 (ATCACG)">
+<special-type name="Index">
+<attribute value="ATCACG" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD002 (CGATGT)">
+<special-type name="Index">
+<attribute value="CGATGT" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD003 (TTAGGC)">
+<special-type name="Index">
+<attribute value="TTAGGC" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD004 (TGACCA)">
+<special-type name="Index">
+<attribute value="TGACCA" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD005 (ACAGTG)">
+<special-type name="Index">
+<attribute value="ACAGTG" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD006 (GCCAAT)">
+<special-type name="Index">
+<attribute value="GCCAAT" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD007 (CAGATC)">
+<special-type name="Index">
+<attribute value="CAGATC" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD008 (ACTTGA)">
+<special-type name="Index">
+<attribute value="ACTTGA" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD009 (GATCAG)">
+<special-type name="Index">
+<attribute value="GATCAG" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD010 (TAGCTT)">
+<special-type name="Index">
+<attribute value="TAGCTT" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD011 (GGCTAC)">
+<special-type name="Index">
+<attribute value="GGCTAC" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD012 (CTTGTA)">
+<special-type name="Index">
+<attribute value="CTTGTA" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD013 (AGTCAA)">
+<special-type name="Index">
+<attribute value="AGTCAA" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD014 (AGTTCC)">
+<special-type name="Index">
+<attribute value="AGTTCC" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD015 (ATGTCA)">
+<special-type name="Index">
+<attribute value="ATGTCA" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD016 (CCGTCC)">
+<special-type name="Index">
+<attribute value="CCGTCC" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD018 (GTCCGC)">
+<special-type name="Index">
+<attribute value="GTCCGC" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD019 (GTGAAA)">
+<special-type name="Index">
+<attribute value="GTGAAA" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD020 (GTGGCC)">
+<special-type name="Index">
+<attribute value="GTGGCC" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD021 (GTTTCG)">
+<special-type name="Index">
+<attribute value="GTTTCG" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD022 (CGTACG)">
+<special-type name="Index">
+<attribute value="CGTACG" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD023 (GAGTGG)">
+<special-type name="Index">
+<attribute value="GAGTGG" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD025 (ACTGAT)">
+<special-type name="Index">
+<attribute value="ACTGAT" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+<rtp:reagent-type xmlns:rtp="http://genologics.com/ri/reagenttype" name="AD027 (ATTCCT)">
+<special-type name="Index">
+<attribute value="ATTCCT" name="Sequence"/>
+</special-type>
+<reagent-category>TruSeq DNA LT Adapters</reagent-category>
+</rtp:reagent-type>
+
+</ReagentTypes>
+</config>
