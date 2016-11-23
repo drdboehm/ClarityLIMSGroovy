@@ -10,11 +10,11 @@ class TestApi {
 	private static testGetContainerById() {
 		// Determine the containers URIs and retrieve them
 		String containerId = "27-53";
-//		String	uri = "https://${GlobalProperties.API_HOST}/api/v2/containers/${containerId}";
+		String containerName ="InputPlate0005"
 		String exception = "";
 
-		Node container = getContainerById(containerId);
-
+//		Node container = getContainerById(containerId);
+		Node container = getContainerByName(containerName);
 //		println container //.name();
 //				println container.message.text();
 
@@ -38,6 +38,13 @@ class TestApi {
 	private static getContainerById(id) {
 		String containerId = id
 		String	uri = "https://${GlobalProperties.API_HOST}/api/v2/containers/${containerId}";
+		Node container = GLSRestApiUtils.httpGET(uri, GlobalProperties.API_USER, GlobalProperties.API_PASSWORD);
+		return container
+	}
+	
+	private static getContainerByName(name) {
+		String containerName = name
+		String	uri = "https://${GlobalProperties.API_HOST}/api/v2/containers/?name=${containerName}";
 		Node container = GLSRestApiUtils.httpGET(uri, GlobalProperties.API_USER, GlobalProperties.API_PASSWORD);
 		return container
 	}

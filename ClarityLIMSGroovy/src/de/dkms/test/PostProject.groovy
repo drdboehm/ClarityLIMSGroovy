@@ -27,7 +27,7 @@ projectName = opt.pj
 
 // Determine project list's URI
 String projectsListURI = "http://${hostname}/api/v2/projects"
-
+ProxySetup.setProxy();
 def builder = new StreamingMarkupBuilder()
 builder.encoding = "UTF-8"
 openDate = "2010-08-24"
