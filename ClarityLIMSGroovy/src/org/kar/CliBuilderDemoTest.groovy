@@ -42,7 +42,7 @@ class CliBuilderDemoTest   extends GroovyTestCase {
      * You can also have any number of arguments by specifying UNLIMITED_VALUES.
      */
     void testUnlimitedArgs() {
-        CliBuilder cli = new CliBuilder()
+//        CliBuilder cli = new CliBuilder()
         cli.with {
             a longOpt: 'arguments', args: Option.UNLIMITED_VALUES, required: true, valueSeparator: ',' as char,
                     'Two arguments, separated by a comma'

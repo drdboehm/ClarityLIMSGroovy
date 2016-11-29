@@ -1,6 +1,7 @@
 // Cookbook Example Script for Clarity LIMS
 import test_api.GLSRestApiUtils
 import groovy.xml.StreamingMarkupBuilder
+import test_api.ProxySetup
 
 /**
  * Description:
@@ -20,15 +21,16 @@ def opt = cli.parse(args)
 if (!opt) {
 	System.exit(-1)
 }
-
+ProxySetup.setProxy()
 hostname = opt.h
 username = opt.u
 password = opt.p
 processTypeURI = opt.pt
 analyteLIMSIDs = opt.as
 
+
 // Determine the containers list URI
-String containersListURI = "http://${hostname}/api/v2/containers"
+String containersListURI = "https://${hostname}/api/v2/containers"
 
 def builder = new StreamingMarkupBuilder()
 builder.encoding = "UTF-8"
