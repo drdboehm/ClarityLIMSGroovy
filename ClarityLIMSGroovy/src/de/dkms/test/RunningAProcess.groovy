@@ -52,11 +52,11 @@ returnNode = GLSRestApiUtils.httpPOST(containerNode, containersListURI, username
 container96WellsURI = returnNode.@uri
 
 // Determine the list URIs and the specified analyte URIs
-processListURI = "http://${hostname}/api/v2/processes"
-researcherURI = "http://${hostname}/api/v2/researchers/1"
-analyte1URI = "http://${hostname}/api/v2/artifacts/${analyteLIMSIDs[0]}"
-analyte2URI = "http://${hostname}/api/v2/artifacts/${analyteLIMSIDs[1]}"
-analyte3URI = "http://${hostname}/api/v2/artifacts/${analyteLIMSIDs[2]}"
+processListURI = "https://${hostname}/api/v2/processes"
+researcherURI = "https://${hostname}/api/v2/researchers/1"
+analyte1URI = "https://${hostname}/api/v2/artifacts/${analyteLIMSIDs[0]}"
+analyte2URI = "https://${hostname}/api/v2/artifacts/${analyteLIMSIDs[1]}"
+analyte3URI = "https://${hostname}/api/v2/artifacts/${analyteLIMSIDs[2]}"
 // Retrieve the process type
 processTypeNode = GLSRestApiUtils.httpGET(processTypeURI, username, password)
 
